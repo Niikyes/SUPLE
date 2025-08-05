@@ -1,0 +1,19 @@
+# Carpetas y archivos internos de Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Archivos de variables sensibles (si los usas)
+*.tfvars
+*.tfvars.json
+
+# Claves privadas
+*.pem
+*.key
+
+# Archivos de backup locales
+*.bak
+
+# Logs y temporales
+*.log
